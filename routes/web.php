@@ -20,5 +20,5 @@ Route::get('/', function () {
     
     return view('welcome');
 });
-Route::get('sendMail',[authController::class,'sendMail']);
+//Route::get('sendMail',[authController::class,'sendMail']);
 

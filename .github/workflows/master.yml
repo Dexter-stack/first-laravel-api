@@ -18,4 +18,4 @@ jobs:
         server: ftpupload.net
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /production.iceiy.com/
+        server-dir: /myproduction/
